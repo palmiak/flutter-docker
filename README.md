@@ -1,19 +1,16 @@
-# Kinsta - Hello World - Dockerfile - Node.js
-An example of deploying an application using a Dockerfile on Kinsta App Hosting services.
+# kinsta_flutter_app
 
----
-Kinsta is a developer-centric cloud host / PaaS. We’re striving to make it easier for you to share your web projects with your users. Focus on coding and building, and we’ll take care of deployment and provide fast, scalable hosting. + 24/7 expert-only support.
+A new Flutter project.
 
-Get started for free, the first $20 is on us!
+## Getting Started
 
-[Application Hosting](https://kinsta.com/application-hosting)
+This project is a starting point for a Flutter application.
 
-[Database Hosting](https://kinsta.com/database-hosting)
+A few resources to get you started if this is your first Flutter project:
 
-## Deployment Lifecycle
-When first creating the app Kinsta will create a process from the `CMD` instruction. 
-```
-CMD ["npm", "run", "start"]
-```
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-Note that if you change this command in the repository the process will **not** be changed by default so you will need to edit it in MyKinsta, in the processes section for your application.
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
